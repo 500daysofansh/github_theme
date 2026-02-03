@@ -1,16 +1,9 @@
-# [Theme Name] for GitHub 🎨
+# TERMINAL UI for GitHub 🎨
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/[YourUsername]/[RepoName]/releases)
 
 A modern, sleek, and [mention style, e.g., "Deep Purple"] theme extension that transforms your GitHub dashboard into a workspace you actually enjoy looking at.
-
----
-
-## 📸 Screenshots
-
-![Main Dashboard Preview](https://via.placeholder.com/800x450.png?text=Place+a+screenshot+of+your+theme+here)
-*The [Theme Name] dashboard in action.*
 
 ---
 
