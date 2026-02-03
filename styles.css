@@ -1,0 +1,60 @@
+/* --- 1. THE ROOT TERMINAL --- */
+* :not(i) {
+    font-family: 'Courier New', monospace !important;
+}
+
+body, .application-main, .bgColor-default, .header-logged-out {
+    background-color: #020202 !important;
+    background-image: 
+        linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px) !important;
+    background-size: 30px 30px !important;
+}
+
+/* 2. REPOSITORY & FILE NAMES (THE DATA) */
+.repo, .author, .Label, .f3, .Link--primary, .markdown-body p, .ActionListItem-label {
+    color: #00FF41 !important;
+    text-transform: lowercase !important;
+}
+
+/* 3. THE CONTRIBUTION CALENDAR (MATRIX GREEN) */
+/* Perfect for your Graph Painter projects */
+.ContributionCalendar-day[data-level="1"] { fill: #003300 !important; }
+.ContributionCalendar-day[data-level="2"] { fill: #006600 !important; }
+.ContributionCalendar-day[data-level="3"] { fill: #00AA00 !important; }
+.ContributionCalendar-day[data-level="4"] { fill: #00FF41 !important; }
+
+/* 4. BUTTONS: SYSTEM OVERRIDE */
+.btn-primary, .Button--primary, .btn-secondary {
+    background-color: transparent !important;
+    border: 1px solid #00FF41 !important;
+    color: #00FF41 !important;
+    border-radius: 0px !important;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 255, 65, 0.2) !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 255, 65, 0.1) !important;
+    box-shadow: 0 0 20px #00FF41 !important;
+}
+
+/* 5. SIDEBAR/HEADER GLOW */
+.AppHeader, .ActionList-item:hover {
+    background: rgba(0, 255, 65, 0.05) !important;
+    border-bottom: 1px solid #00FF41 !important;
+}
+
+/* 6. THE LOGO HACK */
+.octicon-mark-github {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(90deg) brightness(1.2) !important;
+}
+
+/* 7. TYPING CURSOR */
+.typed::after {
+    content: "▊";
+    color: #00FF41;
+    animation: cursor-blink 0.8s infinite;
+    margin-left: 4px;
+}
+@keyframes cursor-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
