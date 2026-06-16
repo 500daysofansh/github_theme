@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Project Mayhem: GitHub Terminal",
+  "version": "1.0",
+  "description": "Industrial Hacking UI for GitHub",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
